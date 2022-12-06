@@ -1,0 +1,33 @@
+#tab{width: 1320px; height: 750px; margin: 100px auto 0; font-family: 'GowunDodum-Regular'; position: relative;}
+.item{position: absolute; top: 0; left: 0; font-size: 30px; font-weight: bold; font-family: 'noto sans kr';}
+
+#board{width:1320px; margin: 100px auto 0; position:relative;/*기준*/}
+
+#board>li{float:right;}
+
+#board>li>a{display:block; padding:0 30px; background-color: #ccc; text-align:center; margin: 0 10px;}
+
+#board>.on>a{font-weight:bold; background:#fff;}
+
+.tab_box{position:absolute; /*자식지정*/ top:24px; left:0; width:100%; box-sizing:border-box; height:700px; border-top: 1px #ccc solid; padding-top: 50px;}
+
+/* #board>li>div{height:0; overflow:hidden;} */
+.tab_text{width: 660px; height: 600px; float: left; text-align: center; background-color: #fff;}
+.tab_img{width: 660px; height: 600px; float: left; overflow: hidden;}
+h2{margin: 130px 0 75px; font-size: 25px; font-weight: 500;}
+.btn{display: inline-block; margin-top: 100px; padding: 5px 30px; font-size: 18px; border: 1px #222 solid; font-weight: bold;}
+.btn:hover{box-shadow: #222 2px 2px 2px;}
+
+#board>li.on>div{width:100%;
+    position:absolute;
+    left:0;
+    top:24px;
+    /* border:1px solid #ccc; */
+    /* padding:20px; */
+    box-sizing:border-box;
+    height:800px;}
+
+#board>li>div{height:0;
+    overflow:hidden;}
+
+.tab_box{border-top: 1px solid #ccc; text-align: center;}
